@@ -1,0 +1,40 @@
+{
+  "name": "quickcart-backend",
+  "version": "1.0.0",
+  "description": "QuickCart backend — Express + MongoDB + Razorpay (ES modules)",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node scripts/seed.js",
+    "check": "node scripts/check-syntax.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "razorpay",
+    "ecommerce"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.9.5",
+    "razorpay": "^2.9.5",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^11.3.0"
+  }
+}
